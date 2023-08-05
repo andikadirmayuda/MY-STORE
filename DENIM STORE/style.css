@@ -64,12 +64,33 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header button a:hover {
-  color: black;
+  color: #000;
 }
 
 .header .icon-link a {
-  color: #c23a00;
-  margin-top: 250px;
-  /* margin-left: 1170px; */
+  color: #fff;
+  margin-top: 400px;
+  padding-left: 1190px;
   position: fixed;
 }
+
+.about {
+  background-color: #c23a00;
+  min-height: 300px;
+}
+.about h2,
+.category h2 {
+  color: #000;
+  border-bottom: 2px solid black;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+.about p {
+  text-align: justify;
+}
+
+.category .card {
+  justify-content: center;
+}
+
