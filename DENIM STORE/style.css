@@ -1,0 +1,75 @@
+body {
+  min-height: 2000px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: black;
+  height: 70px;
+  color: white;
+  justify-content: space-between;
+}
+.navbar-brand a {
+  padding-left: 30px;
+  color: white;
+}
+.navbar-brand span {
+  color: #c23a00;
+}
+.navbar-menu a {
+  color: white;
+  margin-right: 20px;
+  transition: 300ms;
+  padding-bottom: 3px;
+}
+.navbar-menu a:hover {
+  color: #c23a00;
+  border-bottom: 1px solid white;
+}
+.navbar-extra a {
+  margin-right: 20px;
+  color: white;
+}
+.header {
+  background-image: url(image/backgroud-image.jpg);
+  min-height: 100vh;
+}
+.header h1 {
+  padding-top: 200px;
+  margin: auto;
+  color: #c23a00;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  text-shadow: 1px 2px 3px black;
+}
+.header p {
+  width: 500px;
+  text-align: justify;
+  color: black;
+}
+
+.header button {
+  background-color: #c23a00;
+  border: none;
+  border-radius: 5px;
+}
+.header button a {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header button a:hover {
+  color: black;
+}
+
+.header .icon-link a {
+  color: #c23a00;
+  margin-top: 250px;
+  /* margin-left: 1170px; */
+  position: fixed;
+}
