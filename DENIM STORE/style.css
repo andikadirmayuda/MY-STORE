@@ -160,6 +160,28 @@ a {
   color: #fff;
 }
 
+/* Footer */
+
+.footer {
+  background-color: #000;
+  min-height: 50px;
+  padding: 40px;
+  border-top: 1px solid #fff;
+}
+
+.footer .footer-content {
+  color: #fff;
+}
+
+.footer .footer-end h6 {
+  color: #fff;
+  font-size: 12px;
+}
+
+hr {
+  color: #fff;
+}
+
 .contact form {
   padding: 10px;
 }
