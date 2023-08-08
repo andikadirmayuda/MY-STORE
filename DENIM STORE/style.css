@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 2000px;
 }
@@ -5,7 +9,7 @@ body {
 a {
   text-decoration: none;
 }
-
+/* Navbar */
 .navbar {
   background-color: black;
   height: 70px;
@@ -33,6 +37,8 @@ a {
   margin-right: 20px;
   color: white;
 }
+
+/* Header */
 .header {
   background-image: url(image/backgroud-image.jpg);
   min-height: 100vh;
@@ -49,7 +55,7 @@ a {
 .header p {
   width: 500px;
   text-align: justify;
-  color: black;
+  color: #fff;
 }
 
 .header button {
@@ -67,13 +73,7 @@ a {
   color: #000;
 }
 
-.header .icon-link a {
-  color: #fff;
-  margin-top: 400px;
-  padding-left: 1190px;
-  position: fixed;
-}
-
+/* About */
 .about {
   background-color: #000;
   min-height: 300px;
@@ -89,6 +89,8 @@ a {
   text-align: justify;
   color: #fff;
 }
+
+/* Category */
 .category {
   background-color: #000;
   min-height: 500px;
@@ -117,6 +119,7 @@ a {
   color: #fff;
 }
 
+/* Product */
 .product {
   background-color: #000;
   padding-bottom: 3rem;
@@ -127,6 +130,7 @@ a {
   padding-top: 2rem;
 }
 
+/* Contact */
 .contact {
   background-color: #000;
   min-height: 500px;
@@ -160,6 +164,14 @@ a {
   color: #fff;
 }
 
+.contact form {
+  padding: 10px;
+}
+.contact form label {
+  /* padding-top: 2px; */
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
 /* Footer */
 
 .footer {
@@ -180,13 +192,4 @@ a {
 
 hr {
   color: #fff;
-}
-
-.contact form {
-  padding: 10px;
-}
-.contact form label {
-  /* padding-top: 2px; */
-  margin-bottom: 2px;
-  margin-top: 2px;
 }
