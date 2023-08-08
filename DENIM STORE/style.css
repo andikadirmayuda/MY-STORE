@@ -95,8 +95,7 @@ a {
 }
 
 .category h2,
-.product h2,
-.contact h2 {
+.product h2 {
   color: #fff;
   border-bottom: 2px solid white;
   width: 200px;
@@ -133,6 +132,39 @@ a {
   min-height: 500px;
 }
 
+.contact h2 {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+}
 .contact .card {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 5px;
+}
+
+.contact .p {
+  text-align: justify;
+  color: #fff;
+}
+.contact .btn {
+  border: 1px solid #fff;
+}
+.contact .btn a {
+  color: #fff;
+}
+
+.contact form {
+  padding: 10px;
+}
+.contact form label {
+  /* padding-top: 2px; */
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
