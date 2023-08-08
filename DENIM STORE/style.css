@@ -75,22 +75,64 @@ a {
 }
 
 .about {
-  background-color: #c23a00;
+  background-color: #000;
   min-height: 300px;
 }
-.about h2,
-.category h2 {
-  color: #000;
-  border-bottom: 2px solid black;
+.about h2 {
+  color: #fff;
+  border-bottom: 2px solid #fff;
   width: 200px;
   margin: auto;
   padding-bottom: 1rem;
 }
 .about p {
   text-align: justify;
+  color: #fff;
+}
+.category {
+  background-color: #000;
+  min-height: 500px;
 }
 
+.category h2,
+.product h2,
+.contact h2 {
+  color: #fff;
+  border-bottom: 2px solid white;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.category .container {
+  padding-bottom: 4rem;
+}
 .category .card {
   justify-content: center;
+  text-align: center;
+  background-color: #000;
+}
+.category .card p,
+.category .card h5 {
+  color: #fff;
 }
 
+.product {
+  background-color: #000;
+  padding-bottom: 3rem;
+}
+
+.product img {
+  width: 900px;
+  padding-top: 2rem;
+}
+
+.contact {
+  background-color: #000;
+  min-height: 500px;
+}
+
+.contact .card {
+  margin-top: 2rem;
+}
