@@ -34,7 +34,7 @@ a {
   border-bottom: 1px solid white;
 }
 .navbar-extra a {
-  margin-right: 20px;
+  margin-right: 10px;
   color: white;
 }
 
@@ -176,7 +176,7 @@ a {
 
 .footer {
   background-color: #000;
-  min-height: 50px;
+  min-height: 40px;
   padding: 40px;
   border-top: 1px solid #fff;
 }
